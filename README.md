@@ -1,0 +1,41 @@
+# ACM Team Library
+
+> ACM-ICPC 团队代码共享库
+
+## 目录结构
+
+```
+.
+├── docs/               # 官方头文件速查（STL / 算法库用法）
+│   ├── container/      # 容器类：queue、vector、stack 等
+│   ├── algorithm/      # 算法库：sort、lower_bound 等
+│   └── string/        # 字符串相关
+│
+├── templates/          # 竞赛代码块（团队成员贡献）
+│   ├── math/          # 数学：数论、组合
+│   ├── ds/            # 数据结构：线段树、树状数组等
+│   ├── graph/         # 图论：最短路、MST 等
+│   ├── string/        # 字符串：KMP、Trie 等
+│   └── utils/         # 工具：快读、调试
+│
+├── CONTRIBUTING.md     # 贡献指南
+└── README.md
+```
+
+## 两大板块
+
+### 📚 docs/ — 官方头文件速查
+
+整理 C++ 标准库头文件的常用类与方法用法，风格简洁直接，方便赛前快速查阅。
+
+示例：[`docs/container/queue.md`](docs/container/queue.md)
+
+### 🧩 templates/ — 竞赛代码块
+
+团队成员共同维护的可复用代码模板。所有新增/修改均需通过 Pull Request，经审核后合并。
+
+## 贡献方式
+
+详见 [CONTRIBUTING.md](CONTRIBUTING.md)
+
+**流程：** Fork → 新建分支 → 提交 PR → 审核通过 → 合并
