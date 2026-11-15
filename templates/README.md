@@ -20,6 +20,7 @@
 | `prime.hpp` | 试除法判素数、埃氏筛、欧拉线性筛 |
 | `qpow.hpp` | 模快速幂、普通快速幂 |
 | `bigIntegerAddition.hpp` | 大整数（高精度）加法 |
+| `bigIntegerMultiplication.hpp` | 大整数（高精度）乘法 |
 
 ### utils/ 工具
 
