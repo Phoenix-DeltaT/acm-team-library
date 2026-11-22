@@ -47,7 +47,7 @@ putchar('\n');
 │   └── utils/          # 工具头文件：cmath、random、iomanip 等
 │
 ├── templates/          # 竞赛代码块（团队成员贡献）
-│   ├── math/          # 数学：gcd、素数筛、快速幂（已落地）
+│   ├── math/          # 数学：gcd、素数筛、快速幂、高精度（已落地）
 │   ├── ds/            # 数据结构：线段树、树状数组等
 │   ├── graph/         # 图论：最短路、MST 等
 │   ├── string/        # 字符串：KMP、Trie 等
@@ -71,7 +71,7 @@ putchar('\n');
 
 已落地模板见 [`templates/README.md`](templates/README.md)：
 
-- `math/`：gcd / lcm / 扩展欧几里得、素数判断与筛法、快速幂、大整数加减乘
+- `math/`：gcd / lcm / 扩展欧几里得、素数判断与筛法、快速幂、大整数加减乘除（string 接口）
 - `utils/`：快速 IO 两行版 / 完整版、快读
 
 ## 贡献方式
