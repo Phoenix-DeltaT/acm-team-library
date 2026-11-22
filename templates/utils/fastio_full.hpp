@@ -1,11 +1,11 @@
 /**
  * @file fastio_full.hpp
- * @brief 快速 IO 完整版（快读 + 快写，竞赛做题模板）
+ * @brief 快速 IO 完整版（快读 + 快写）
  * @complexity 读 / 写均为 O(位数)，常数远小于 cin/cout
  * @适用场景 数据量大（百万级）、cin/cout 超时；读字符串可用 read_str
  */
-#ifndef ACM_UTILS_FASTIO_FULL_HPP
-#define ACM_UTILS_FASTIO_FULL_HPP
+#ifndef FASTIO_FULL_HPP
+#define FASTIO_FULL_HPP
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -64,4 +64,4 @@ inline int read_str(char* s) {
     return len;
 }
 
-#endif // ACM_UTILS_FASTIO_FULL_HPP
+#endif  // FASTIO_FULL_HPP

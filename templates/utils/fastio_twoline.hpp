@@ -8,8 +8,8 @@
  *     ios::sync_with_stdio(false);
  *     cin.tie(nullptr);
  */
-#ifndef ACM_UTILS_FASTIO_TWOLINE_HPP
-#define ACM_UTILS_FASTIO_TWOLINE_HPP
+#ifndef FASTIO_TWOLINE_HPP
+#define FASTIO_TWOLINE_HPP
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -22,4 +22,4 @@ inline void fast_io() {
     cin.tie(nullptr);
 }
 
-#endif // ACM_UTILS_FASTIO_TWOLINE_HPP
+#endif  // FASTIO_TWOLINE_HPP
