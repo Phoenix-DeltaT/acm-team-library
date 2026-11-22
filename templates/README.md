@@ -27,6 +27,8 @@
 | 文件 | 内容 |
 |------|------|
 | `fastio.hpp` | getchar 快读 read<T>、cin/cout 加速 fast_cin_out |
+| `fastio_twoline.hpp` | 快速 IO 两行版：fast_io()，cin/cout 加速 |
+| `fastio_full.hpp` | 快速 IO 完整版：read 快读、write 快写、read_str 读字符串 |
 
 ## 贡献方式
 

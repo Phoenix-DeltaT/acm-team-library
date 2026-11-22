@@ -2,6 +2,39 @@
 
 > ACM-ICPC 团队代码共享库
 
+## ⚡ 快速 IO 模板（做题直接复制）
+
+### 两行版（绝大多数题目够用，贴 main 开头）
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    // 之后正常用 cin / cout
+}
+```
+
+封装文件：[`templates/utils/fastio_twoline.hpp`](templates/utils/fastio_twoline.hpp)
+
+### 完整版（百万级数据、cin/cout 超时）
+
+快读 `read<T>()`、快写 `write<T>()`、读字符串 `read_str()`，完整代码见 [`templates/utils/fastio_full.hpp`](templates/utils/fastio_full.hpp)：
+
+```cpp
+long long n = read<long long>();   // 快读（支持负数）
+char s[64];
+read_str(s);                       // 快读字符串
+write(n);                          // 快写（不自动换行）
+putchar('\n');
+```
+
+> ⚠️ 加速后不要混用 scanf/printf 与 cin/cout
+
+---
+
 ## 目录结构
 
 ```
@@ -38,8 +71,8 @@
 
 已落地模板见 [`templates/README.md`](templates/README.md)：
 
-- `math/`：gcd / lcm / 扩展欧几里得、素数判断与筛法、快速幂
-- `utils/`：快速读入、cin/cout 加速
+- `math/`：gcd / lcm / 扩展欧几里得、素数判断与筛法、快速幂、大整数加减乘
+- `utils/`：快速 IO 两行版 / 完整版、快读
 
 ## 贡献方式
 
